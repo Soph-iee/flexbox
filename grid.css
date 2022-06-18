@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --bgblue: rgb(1, 1, 23);
+  --yellow: yellow;
+  --red: red;
+  --blue: blue;
+  --green: green;
+  --cyan: cyan;
+}
+body {
+  background-color: var(--bgblue);
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 50%;
+  height: 600px;
+  display: grid;
+  grid-template-areas:
+    "a a a a b b"
+    "a a a a b b"
+    "c c c d d d"
+    "c c c e e e";
+  gap: 18px;
+}
+.container div {
+  padding: 20px;
+}
+.a {
+  background-color: var(--yellow);
+  grid-area: a;
+}
+.b {
+  background-color: var(--red);
+  grid-area: b;
+}
+
+.c {
+  background-color: var(--blue);
+  grid-area: c;
+}
+.d {
+  background-color: var(--green);
+  grid-area: d;
+}
+.e {
+  background-color: var(--cyan);
+  grid-area: e;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 30px;
+  color: var(--yellow);
+}

@@ -68,6 +68,10 @@ main {
 .luxury {
   background-color: hsl(179, 100%, 13%);
 }
+.btn {
+  display: flex;
+  justify-content: center;
+}
 .btn button {
   padding: 16px 32px;
   font-size: 15px;
@@ -93,15 +97,10 @@ main {
 .luxury button {
   color: hsl(179, 100%, 13%);
 }
-/* .sedan button:hover {
-  background-color: hsl(31, 77%, 52%);
-  color: #fff;
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 30px;
+  color: hsl(184, 100%, 22%);
 }
-.suv button:hover {
-  background-color: hsl(184, 100%, 22%);
-  color: #fff;
-}
-.luxury button:hover {
-  background-color: hsl(179, 100%, 13%);
-  color: #fff;
-} */
