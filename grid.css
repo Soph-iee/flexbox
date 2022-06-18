@@ -22,7 +22,7 @@ main {
 }
 .container {
   width: 50%;
-  height: 600px;
+  height: 450px;
   display: grid;
   grid-template-areas:
     "a a a a b b"
